@@ -1,0 +1,119 @@
+body {
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+  height: 200vh;
+  display: flex;
+  background-color: rgb(68, 121, 219);
+  flex-direction: column;
+}
+
+.osmin {
+  width: 60%;
+  height: 25%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.head {
+  height: 100%;
+  width: 25%;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.eye {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  height: 10%;
+  width: 10%;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+.head::before {
+  position: absolute;
+  content: "";
+  width: 200%;
+  height: 100%;
+  left: -100%;
+  
+  background-image: linear-gradient(90deg, rgb(120, 243, 202), rgb(89, 196, 160));
+  background-size: 50% 100%;
+  border-radius: 0 50% 50% 0;
+  z-index: -1;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+}
+
+.tentac {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-end;
+}
+
+.tent {
+  height: 10%;
+  width: 50%;
+  background-image: linear-gradient(90deg, rgb(95, 201, 148), rgb(172, 228, 195));
+  border-radius: 30px 0 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+.tent_2 {
+  width: 20%;
+}
+
+.tent_3 {
+  width: 35%;
+}
+
+.tent_4 {
+  width: 34%;
+}
+.tent_5 {
+  width: 60%;
+}
+
+.tent_6 {
+  width: 60%;
+} 
+
+ .tent_7 {
+  width: 30%;
+}
+.tent_8 {
+  width: 75%;
+}
+.tent_9 {
+  width: 24%;
+} 
+.tent_10 {
+  width: 30%;
+} 
+.tent_11 {
+  width: 50%;
+} 
+.tent_12 {
+  width: 50%;
+} 
